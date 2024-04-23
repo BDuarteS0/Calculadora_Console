@@ -10,7 +10,7 @@ namespace calculadora
 {
  
 
-    internal class Program
+    internal class Principal
     {
         static void Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace calculadora
                 Console.WriteLine("3- Multiplicação \n");
                 Console.WriteLine("4- Divisão \n");
 
-
+                //Aqui provavavelmente terei que criar outra classe pra colocar essa dentro, pra fazer o looping
                 int operacao = int.Parse(Console.ReadLine());
                 if (operacao != 1 && operacao != 2 && operacao != 3 && operacao != 4)
                 {

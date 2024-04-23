@@ -22,7 +22,8 @@ namespace Metodos
 
         public static int Multiplicacao(int num1, int num2)
         {
-            int resultado = num1 * num2;
+            int MultiLocal = num1 * num2;
+            int resultado = MultiLocal;
             return resultado;
         }
 
